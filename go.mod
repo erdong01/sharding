@@ -1,15 +1,15 @@
 module github.com/erdong01/sharding
 
-go 1.24
+go 1.25
 
 require (
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/longbridgeapp/assert v1.1.0
 	github.com/longbridgeapp/sqlparser v0.3.1
-	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63
+	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546
 	gorm.io/driver/mysql v1.6.0
 	gorm.io/driver/postgres v1.6.0
-	gorm.io/gorm v1.30.1
+	gorm.io/gorm v1.31.1
 	gorm.io/hints v1.1.2
 	gorm.io/plugin/dbresolver v1.6.2
 )
@@ -29,7 +29,7 @@ require (
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 	golang.org/x/crypto v0.40.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/text v0.27.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
